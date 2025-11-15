@@ -1,0 +1,8 @@
+# Visual Studio temporary files
+[Bb]in/
+[Oo]bj/
+*.pdb
+*.user
+*.suo
+# Visual Studio Cache folder
+.vs/
