@@ -32,10 +32,7 @@ namespace QuanLiQuanTraSua
 
         }
 
-        private void close_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+        
 
         private void AdminMainForm_Load(object sender, EventArgs e)
         {
@@ -81,6 +78,24 @@ namespace QuanLiQuanTraSua
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void close_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        
+
+        private void logout1_btn_Click(object sender, EventArgs e)
+        {
+            DialogResult check = MessageBox.Show("Ban co muon thoat khong ", "thong bao xac nhan ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if(check == DialogResult.Yes)
+            {
+                Form1 loginForm = new Form1();
+                loginForm.Show();
+                this.Hide();
+            }
         }
     }
 }
