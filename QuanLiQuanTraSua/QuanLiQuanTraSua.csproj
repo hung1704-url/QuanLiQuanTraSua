@@ -124,5 +124,8 @@
     <Content Include="Assets\moneybag.png" />
     <Content Include="Assets\user.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="User_Directory\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

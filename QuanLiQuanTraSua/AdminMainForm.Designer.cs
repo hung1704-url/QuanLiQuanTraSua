@@ -236,6 +236,7 @@
             this.adminAddUsers2.Name = "adminAddUsers2";
             this.adminAddUsers2.Size = new System.Drawing.Size(1131, 608);
             this.adminAddUsers2.TabIndex = 0;
+            this.adminAddUsers2.Load += new System.EventHandler(this.adminAddUsers2_Load);
             // 
             // AdminMainForm
             // 

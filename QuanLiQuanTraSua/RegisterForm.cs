@@ -139,5 +139,10 @@ namespace QuanLiQuanTraSua
         {
 
         }
+
+        private void RegisterForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

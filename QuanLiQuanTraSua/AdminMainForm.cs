@@ -97,5 +97,10 @@ namespace QuanLiQuanTraSua
                 this.Hide();
             }
         }
+
+        private void adminAddUsers2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
