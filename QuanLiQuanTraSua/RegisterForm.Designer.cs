@@ -69,7 +69,7 @@
             this.register_showPass.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.register_showPass.Location = new System.Drawing.Point(281, 264);
             this.register_showPass.Name = "register_showPass";
-            this.register_showPass.Size = new System.Drawing.Size(156, 26);
+            this.register_showPass.Size = new System.Drawing.Size(121, 20);
             this.register_showPass.TabIndex = 15;
             this.register_showPass.Text = "Show Password";
             this.register_showPass.UseVisualStyleBackColor = true;
@@ -90,7 +90,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label4.Location = new System.Drawing.Point(278, 156);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 17);
+            this.label4.Size = new System.Drawing.Size(65, 13);
             this.label4.TabIndex = 13;
             this.label4.Text = "Password:";
             // 
@@ -107,7 +107,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label3.Location = new System.Drawing.Point(278, 82);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 17);
+            this.label3.Size = new System.Drawing.Size(67, 13);
             this.label3.TabIndex = 11;
             this.label3.Text = "Username:";
             // 
@@ -117,7 +117,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label2.Location = new System.Drawing.Point(278, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 17);
+            this.label2.Size = new System.Drawing.Size(70, 13);
             this.label2.TabIndex = 10;
             this.label2.Text = "REGISTER";
             // 
@@ -143,7 +143,7 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(55, 69);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(128, 24);
+            this.label7.Size = new System.Drawing.Size(104, 18);
             this.label7.TabIndex = 12;
             this.label7.Text = "GuGuGaGa!!";
             // 
@@ -154,7 +154,7 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(19, 36);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(208, 24);
+            this.label6.Size = new System.Drawing.Size(167, 18);
             this.label6.TabIndex = 9;
             this.label6.Text = "Hãy Mua Trà Sữa Đi!!";
             // 
@@ -174,7 +174,7 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(20, 298);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(197, 17);
+            this.label5.Size = new System.Drawing.Size(156, 13);
             this.label5.TabIndex = 10;
             this.label5.Text = "Already have an account?";
             // 
@@ -207,7 +207,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.Location = new System.Drawing.Point(278, 221);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 17);
+            this.label1.Size = new System.Drawing.Size(111, 13);
             this.label1.TabIndex = 17;
             this.label1.Text = "Confirm Password:";
             // 
@@ -218,7 +218,7 @@
             this.close.Location = new System.Drawing.Point(574, 9);
             this.close.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(16, 16);
+            this.close.Size = new System.Drawing.Size(15, 13);
             this.close.TabIndex = 19;
             this.close.Text = "X";
             this.close.Click += new System.EventHandler(this.close_Click);

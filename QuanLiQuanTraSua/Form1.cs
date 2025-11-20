@@ -115,6 +115,10 @@ namespace QuanLiQuanTraSua
                             if(table.Rows.Count >=1)
                             {
                                 MessageBox.Show("Login successful", "wellcome", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                AdminMainForm adminForm = new AdminMainForm();
+                                adminForm.Show();
+
+                                this.Hide();
                             }else
                             {
                                 MessageBox.Show("Incorrect Username/ Password or there's no Admin's approval", "error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
