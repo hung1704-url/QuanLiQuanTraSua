@@ -15,21 +15,9 @@ namespace QuanLiQuanTraSua
         public AdminMainForm()
         {
             InitializeComponent();
-        }
+            
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void adminAddUsers1_Load(object sender, EventArgs e)
-        {
-
+            
         }
 
         
@@ -40,10 +28,6 @@ namespace QuanLiQuanTraSua
         }
 
         private void AdminMainForm_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void button5_Click(object sender, EventArgs e)
         {
 
         }
@@ -102,5 +86,30 @@ namespace QuanLiQuanTraSua
         {
 
         }
+
+        private void button3_Click_2(object sender, EventArgs e)
+        {
+            adminDashboardForm1.Visible = true;
+            adminAddUsers2.Visible = false;
+            adminAddProducts1.Visible = false;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            adminAddProducts1.Visible = true;
+            adminDashboardForm1.Visible = false;
+            adminAddUsers2.Visible = false;
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            adminAddUsers2.Visible = true;
+            adminDashboardForm1.Visible = false;
+            
+            adminAddProducts1.Visible = false;
+        }
+
+
     }
 }
