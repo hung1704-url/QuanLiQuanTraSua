@@ -41,15 +41,15 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.adminDashboardForm1 = new QuanLiQuanTraSua.AdminDashboardForm();
             this.adminAddProducts1 = new QuanLiQuanTraSua.AdminAddProducts();
             this.adminAddUsers2 = new QuanLiQuanTraSua.AdminAddUsers();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel4
@@ -217,15 +217,6 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "Admin\'s Portal";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(145, 172);
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.adminDashboardForm1);
@@ -237,9 +228,18 @@
             this.panel1.Size = new System.Drawing.Size(1135, 611);
             this.panel1.TabIndex = 2;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(145, 172);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
             // adminDashboardForm1
             // 
-            this.adminDashboardForm1.Location = new System.Drawing.Point(-3, 0);
+            this.adminDashboardForm1.Location = new System.Drawing.Point(-2, 0);
             this.adminDashboardForm1.Name = "adminDashboardForm1";
             this.adminDashboardForm1.Size = new System.Drawing.Size(1147, 608);
             this.adminDashboardForm1.TabIndex = 2;
@@ -274,8 +274,8 @@
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

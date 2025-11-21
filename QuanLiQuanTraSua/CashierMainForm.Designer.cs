@@ -41,10 +41,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.close = new System.Windows.Forms.Label();
+            this.adminDashboardForm1 = new QuanLiQuanTraSua.AdminDashboardForm();
+            this.adminAddProducts1 = new QuanLiQuanTraSua.AdminAddProducts();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cashierOrderForm1 = new QuanLiQuanTraSua.CashierOrderForm();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,6 +82,9 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.cashierOrderForm1);
+            this.panel3.Controls.Add(this.adminAddProducts1);
+            this.panel3.Controls.Add(this.adminDashboardForm1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(181, 50);
             this.panel3.Name = "panel3";
@@ -108,6 +115,7 @@
             this.logout1_btn.TabIndex = 29;
             this.logout1_btn.Text = "Logout";
             this.logout1_btn.UseVisualStyleBackColor = false;
+            this.logout1_btn.Click += new System.EventHandler(this.logout1_btn_Click);
             // 
             // button4
             // 
@@ -201,15 +209,6 @@
             this.label2.TabIndex = 22;
             this.label2.Text = "Cashier\'s Portal";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(19, 14);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(145, 172);
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
-            // 
             // close
             // 
             this.close.AutoSize = true;
@@ -221,6 +220,36 @@
             this.close.TabIndex = 5;
             this.close.Text = "X";
             this.close.Click += new System.EventHandler(this.close_Click);
+            // 
+            // adminDashboardForm1
+            // 
+            this.adminDashboardForm1.Location = new System.Drawing.Point(6, 0);
+            this.adminDashboardForm1.Name = "adminDashboardForm1";
+            this.adminDashboardForm1.Size = new System.Drawing.Size(1147, 608);
+            this.adminDashboardForm1.TabIndex = 0;
+            // 
+            // adminAddProducts1
+            // 
+            this.adminAddProducts1.Location = new System.Drawing.Point(0, 0);
+            this.adminAddProducts1.Name = "adminAddProducts1";
+            this.adminAddProducts1.Size = new System.Drawing.Size(1179, 621);
+            this.adminAddProducts1.TabIndex = 1;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(19, 14);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(145, 172);
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
+            // cashierOrderForm1
+            // 
+            this.cashierOrderForm1.Location = new System.Drawing.Point(0, 0);
+            this.cashierOrderForm1.Name = "cashierOrderForm1";
+            this.cashierOrderForm1.Size = new System.Drawing.Size(1147, 608);
+            this.cashierOrderForm1.TabIndex = 2;
             // 
             // CashierMainForm
             // 
@@ -238,6 +267,7 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -259,5 +289,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label close;
+        private AdminDashboardForm adminDashboardForm1;
+        private AdminAddProducts adminAddProducts1;
+        private CashierOrderForm cashierOrderForm1;
     }
 }

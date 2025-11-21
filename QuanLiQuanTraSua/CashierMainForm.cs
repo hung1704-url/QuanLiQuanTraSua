@@ -21,5 +21,18 @@ namespace QuanLiQuanTraSua
         {
             Application.Exit();
         }
+
+        private void logout1_btn_Click(object sender, EventArgs e)
+        {
+            DialogResult check = MessageBox.Show("ban co muon thoat khong "
+    , "thong bao ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (check == DialogResult.Yes)
+            {
+                Form1 loginForm = new Form1();
+                loginForm.Show();
+                this.Hide();
+            }
+        }
     }
 }
